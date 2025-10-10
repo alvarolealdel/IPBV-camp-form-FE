@@ -14,6 +14,7 @@ import PackageCard from '@/components/Admin/PackageCard';
 import ExternalLinkRow from '@/components/Admin/ExternalLinkRow';
 import SessionCard from '@/components/Admin/SessionCard';
 import SideButtons from '@/components/Admin/SideButtons';
+import RichTextEditor from '@/components/Admin/RichTextEditor';
 
 const AdminLoggedIn = ({
   availablePackages,
@@ -329,6 +330,8 @@ const AdminLoggedIn = ({
           <div className="packages-horizontal-line" />
         </>
       )}
+
+      <RichTextEditor />
 
       <SideButtons primaryPermission={dataPanelButtonPermissions} secondaryPermission={settingsButtonPermissions} />
 

@@ -597,3 +597,12 @@
     height: auto !important;
   }
 }
+
+.editor-container {
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.ck-editor__editable {
+  min-height: 200px;
+}
